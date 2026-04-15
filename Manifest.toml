@@ -2,7 +2,7 @@
 
 julia_version = "1.12.4"
 manifest_format = "2.0"
-project_hash = "87f8204d389def16d8fae4b2327d29da7094d989"
+project_hash = "12d1e2d042714d11a9281590c57a2281b6afe1a2"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "f7304359109c768cf32dc5fa2d371565bb63b68a"
@@ -1110,6 +1110,12 @@ version = "1.1.3"
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 version = "1.3.0"
+
+[[deps.NonNegLeastSquares]]
+deps = ["LinearAlgebra", "SparseArrays"]
+git-tree-sha1 = "cdc11138e74a0dd0b82e7d64eb1350fdf049d3b1"
+uuid = "b7351bd1-99d9-5c5d-8786-f205a815c4d7"
+version = "0.4.1"
 
 [[deps.Ogg_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
